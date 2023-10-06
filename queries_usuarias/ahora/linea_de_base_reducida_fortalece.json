@@ -1,0 +1,388 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de base reducida Fortalece",
+  "form": {
+    "formType": "base",
+    "formId": "11",
+    "formName": "Fortalece tu negocio",
+    "formDescription": "Bienvenida al curso: Fortalece tu negocio de Emprende Pro Mujer.",
+    "textPresentation": "Te invitamos a llenar este corto formulario para que puedas asegurar un lugar en este programa de formación que te acompañará en tu desarrollo como emprendedora. Gracias por estar junto a nosotras. ¡Te deseamos muchos éxitos!",
+    "textInstructions": "",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextPrivacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "33",
+        "sectionName": "HÁBITOS",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "152",
+            "questionText": "¿Tienes el hábito de ahorrar? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "152",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "2",
+                      "label": "No"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Algunas veces"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "153",
+            "questionText": "¿Realizas presupuesto en tu emprendimiento? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "153",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nunca"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Pocas veces"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Con frecuencia"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Siempre"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "34",
+        "sectionName": "COMPETENCIAS Y HABILIDADES",
+        "sectionDescription": "",
+        "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio en estos temas?",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "154",
+            "questionText": "Incorporación de la perspectiva de género en el negocio",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "154",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "155",
+            "questionText": "Innovación para el negocio y estrategias de crecimiento del negocio",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "155",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "156",
+            "questionText": "Comunicación estratégica y marketing digital",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "156",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "157",
+            "questionText": "Herramientas financieras (flujo de efectivo, proyección financiera, elaboración de presupuesto, etc.)",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "157",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "158",
+            "questionText": "Fuentes de financiamiento",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "158",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "159",
+            "questionText": "Uso de medios digitales de pago",
+            "questionDescription": "",
+            "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio del tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "159",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

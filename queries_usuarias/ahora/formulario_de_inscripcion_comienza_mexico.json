@@ -1,0 +1,1357 @@
+{
+  "campaignId": "1",
+  "campaignName": "Comienza México - Formulario de inscripción Comienza México",
+  "form": {
+    "formType": "base",
+    "formId": "1",
+    "formName": "Comienza tu negocio",
+    "formDescription": "Bienvenida al curso: Comienza tu negocio de Emprende Pro Mujer.",
+    "textPresentation": "Te invitamos a llenar este formulario para que puedas asegurar un lugar en este programa de formación que te acompañará en tu desarrollo como emprendedora. Gracias por estar junto a nosotras. ¡Te deseamos muchos éxitos!",
+    "textInstructions": "Al hacer clic en Enviar, aceptas que promujer.org almacene y procese la información personal suministrada para proporcionarte el contenido solicitado.",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "¡Gracias por completar tu formulario!",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "1",
+        "sectionName": "¿Dónde vives?",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": false
+        },
+        "questions": [
+          {
+            "questionId": "1",
+            "questionText": "Estado",
+            "questionDescription": "",
+            "orden": 1,
+            "questionType": "inputText",
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "1",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "minimumLength": 32,
+                  "maximumLength": 100
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "2",
+            "questionText": "Municipio",
+            "questionDescription": "",
+            "orden": 2,
+            "questionType": "inputText",
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "2",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "minimumLength": 2,
+                  "maximumLength": 100
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "3",
+            "questionText": "Código Postal",
+            "questionDescription": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "3",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "validator": "numberValidator"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "2",
+        "sectionName": "INFORMACIÓN PERSONAL",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "4",
+            "questionText": "Por sus costumbres, lenguaje o tradiciones, usted se siente o se considera una persona:",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "4",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Perteneciente a un pueblo indígena u originario"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Afrodescendiente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Blanca"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Mestiza"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otra"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Ninguna"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Prefiero no decir"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "5",
+            "questionText": "Habla una lengua indígena, ¿Cúal?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "5",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Tzotzil"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Tzeltal"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Chol"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Maya"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Zapoteco"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Mixe"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Otro"
+                    },
+                    {
+                      "value": "8",
+                      "label": "Ninguna"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "6",
+            "questionText": "Tiene usted alguna dificultad permanente para:",
+            "questionDescription": "",
+            "textInstructions": "Seleccione todas las que apliquen",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "6",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Ver"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Oír"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Hablar"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Caminar"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otra"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Ninguna"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "7",
+            "questionText": "¿Cuál es su máximo nivel educativo alcanzado?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "7",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Primario incompleta"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Primario completa"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Secundario incompleto"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Secundario completo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Terciario/tecnicatura incompleto"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Terciario/tecnicatura completo"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Universitario (licenciatura) incompleto"
+                    },
+                    {
+                      "value": "8",
+                      "label": "Universitario (licenciatura) completo"
+                    },
+                    {
+                      "value": "9",
+                      "label": "Post grado incompleto"
+                    },
+                    {
+                      "value": "10",
+                      "label": "Post grado completo"
+                    },
+                    {
+                      "value": "11",
+                      "label": "Prefiero no decir"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "8",
+            "questionText": "Estado Civil",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "8",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Soltera (o)"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Unión libre"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Casada (o)"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Divorciada (o)"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Viuda (o)"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "9",
+            "questionText": "¿Tienes hijos?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "9",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "10",
+            "questionText": "¿Cuántas personas, (incluido hijos) dependen económicamente de usted y/o su pareja?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "10",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Ninguna"
+                    },
+                    {
+                      "value": "2",
+                      "label": "1 a 3 personas"
+                    },
+                    {
+                      "value": "3",
+                      "label": "4 a 6 personas"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Más de 7 personas"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "11",
+            "questionText": "¿Quién es el principal sustento de su hogar?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 8,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "11",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Yo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Mi pareja"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Es compartido (entre mi pareja y yo)"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Mi padre o madre"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otros miembros del hogar"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "12",
+            "questionText": "¿Cuál es su ocupación principal?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 9,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "12",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Ama de casa"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Empleada"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Desempleada"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Estudiante"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Negocio Propio"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Apoyo negocio de mi pareja"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Negocio familiar"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "13",
+            "questionText": "¿Tiene usted un negocio? ¿hace cuanto?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 10,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "13",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Tengo una idea pero aún no arrancó"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Si, menos de 6 meses"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Si, entre 6 meses y 1 año"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Si, entre 1 y 2 años "
+                    },
+                    {
+                      "value": "5",
+                      "label": "Si, entre 2 y 3 años"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Más de 3 años"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "14",
+            "questionText": "¿En su negocio cuenta con empleados o empleadas?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 11,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "14",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "No tengo empleadas/os"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Sí, entre 1 y 4 empleadas/os"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Sí, más de 5 empleadas/os"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "15",
+            "questionText": "¿Cuántas horas al día le dedica a su negocio?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 12,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "15",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1-2 hrs."
+                    },
+                    {
+                      "value": "2",
+                      "label": "3-4 hrs."
+                    },
+                    {
+                      "value": "3",
+                      "label": "5-6 hrs."
+                    },
+                    {
+                      "value": "4",
+                      "label": "7-8 hrs."
+                    },
+                    {
+                      "value": "5",
+                      "label": "9-10 hrs."
+                    },
+                    {
+                      "value": "6",
+                      "label": "11-12 hrs."
+                    },
+                    {
+                      "value": "7",
+                      "label": "0 hrs."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "16",
+            "questionText": "¿Cuántas horas al día le dedica a actividades del hogar?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 13,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "16",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1-2 hrs."
+                    },
+                    {
+                      "value": "2",
+                      "label": "3-4 hrs."
+                    },
+                    {
+                      "value": "3",
+                      "label": "5-6 hrs."
+                    },
+                    {
+                      "value": "4",
+                      "label": "7-8 hrs."
+                    },
+                    {
+                      "value": "5",
+                      "label": "9-10 hrs."
+                    },
+                    {
+                      "value": "6",
+                      "label": "11-12 hrs."
+                    },
+                    {
+                      "value": "7",
+                      "label": "0 hrs."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "17",
+            "questionText": "¿Cuántas horas al día le dedica a capacitación/educación?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 14,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "17",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1-2 hrs."
+                    },
+                    {
+                      "value": "2",
+                      "label": "3-4 hrs."
+                    },
+                    {
+                      "value": "3",
+                      "label": "5-6 hrs."
+                    },
+                    {
+                      "value": "4",
+                      "label": "7-8 hrs."
+                    },
+                    {
+                      "value": "5",
+                      "label": "9-10 hrs."
+                    },
+                    {
+                      "value": "6",
+                      "label": "11-12 hrs."
+                    },
+                    {
+                      "value": "7",
+                      "label": "0 hrs."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "18",
+            "questionText": "¿Cuántas horas al día le dedica a entretenimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 15,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "18",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1-2 hrs."
+                    },
+                    {
+                      "value": "2",
+                      "label": "3-4 hrs."
+                    },
+                    {
+                      "value": "3",
+                      "label": "5-6 hrs."
+                    },
+                    {
+                      "value": "4",
+                      "label": "7-8 hrs."
+                    },
+                    {
+                      "value": "5",
+                      "label": "9-10 hrs."
+                    },
+                    {
+                      "value": "6",
+                      "label": "11-12 hrs."
+                    },
+                    {
+                      "value": "7",
+                      "label": "0 hrs."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "19",
+            "questionText": "Seleccione los tipos de capacitación que ha recibido en el pasado",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 16,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "19",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Emprendimiento/Negocios"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Habilidades gerenciales"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Desarrollo personal"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Ninguna"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otros"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "20",
+            "questionText": "¿Cuál es el giro de su negocio? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 17,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "20",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Elaboración y/o venta de alimentos y bebidas"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Fabricación artesanal de bienes / trabajos con madera"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Venta por catálogo"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Elaboración y/o venta de indumentaria / textiles / calzado"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Atención médica y productos farmacéuticos"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Peluquería, salud y belleza"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Construcción, maquinaria y viviendas"
+                    },
+                    {
+                      "value": "h",
+                      "label": "Educación"
+                    },
+                    {
+                      "value": "i",
+                      "label": "Entretenimiento y ocio"
+                    },
+                    {
+                      "value": "j",
+                      "label": "Finanzas y servicios financieros"
+                    },
+                    {
+                      "value": "k",
+                      "label": "Publicidad, mercadotecnia y servicios digitales (diseño gráfico, redes sociales, etc.)"
+                    },
+                    {
+                      "value": "l",
+                      "label": "Telecomunicaciones, tecnología, internet y electrónica"
+                    },
+                    {
+                      "value": "m",
+                      "label": "Servicios para el hogar (limpieza, diseño de interiores, etc.)"
+                    },
+                    {
+                      "value": "n",
+                      "label": "Veterinaria y/o servicios para mascotas y animales"
+                    },
+                    {
+                      "value": "o",
+                      "label": "No tengo emprendimiento aún"
+                    },
+                    {
+                      "value": "p",
+                      "label": "Otro"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "21",
+            "questionText": "¿Cuál es el principal producto o servicio que vende?",
+            "questionDescription": "",
+            "orden": 18,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "21",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "minimumLength": 2,
+                  "maximumLength": 100
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "22",
+            "questionText": "¿Su negocio se encuentra formalmente registrado en la secretaría de hacienda?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 19,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "22",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "23",
+            "questionText": "¿Ha recibido algún servicio/producto de Pro Mujer?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 20,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "23",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Servicio financiero (préstamo)"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Servicio de salud (mamografía, tamizajes, etc)"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Ambos"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Ninguno"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "24",
+            "questionText": "En un mes típico, ¿Cuál es, aproximadamente, el ingreso por ventas de su emprendimiento? (Si el emprendimiento no estaba en funcionamiento o si el emprendimiento estaba operando pero no tuvo ventas, se debe colocar 0.)",
+            "questionDescription": "Por ingreso se hace referencia a ingresos por ventas del emprendimiento, ingresos por otro/s trabajo/s, ayudas sociales, etc., a nivel individual. Si el emprendimiento no estaba en funcionamiento, entonces no se debe poner nada. En cambio, si el emprendimiento estaba operando pero no tuvo ventas, se debe colocar 0.",
+            "textInstructions": "Complete y Seleccione la moneda local de su país",
+            "orden": 21,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "24",
+                "answerText": "",
+                "answerType": "moneyCurrencyInput",
+                "answerAdicionalProperties": {
+                  "lesserValue": 1,
+                  "optionsCurrency": [
+                    {
+                      "value": "PAB",
+                      "label": "Balboa"
+                    },
+                    {
+                      "value": "VEF",
+                      "label": "Bolívar"
+                    },
+                    {
+                      "value": "BOB",
+                      "label": "Boliviano"
+                    },
+                    {
+                      "value": "CRC",
+                      "label": "Colón Costarricense"
+                    },
+                    {
+                      "value": "SVC",
+                      "label": "Colón Salvadoreño"
+                    },
+                    {
+                      "value": "NIO",
+                      "label": "Córdoba"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar"
+                    },
+                    {
+                      "value": "BSD",
+                      "label": "Dólar Bahameño"
+                    },
+                    {
+                      "value": "BZD",
+                      "label": "Dólar Beliceño"
+                    },
+                    {
+                      "value": "BBD",
+                      "label": "Dólar de Barbados"
+                    },
+                    {
+                      "value": "KYD",
+                      "label": "Dólar de las Islas Caimán"
+                    },
+                    {
+                      "value": "XCD",
+                      "label": "Dólar del Caribe Oriental"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar Estadounidense"
+                    },
+                    {
+                      "value": "GYD",
+                      "label": "Dólar Guyanés"
+                    },
+                    {
+                      "value": "JMD",
+                      "label": "Dólar Jamaiquino"
+                    },
+                    {
+                      "value": "SRD",
+                      "label": "Dólar Surinamés"
+                    },
+                    {
+                      "value": "TTD",
+                      "label": "Dólar Trinitense"
+                    },
+                    {
+                      "value": "EUR",
+                      "label": "Euro"
+                    },
+                    {
+                      "value": "AWG",
+                      "label": "Florín Arubeño"
+                    },
+                    {
+                      "value": "HTG",
+                      "label": "Gourde"
+                    },
+                    {
+                      "value": "PYG",
+                      "label": "Guaraní Paraguayo"
+                    },
+                    {
+                      "value": "HNL",
+                      "label": "Lempira Hondureño"
+                    },
+                    {
+                      "value": "ARS",
+                      "label": "Peso Argentino"
+                    },
+                    {
+                      "value": "CLP",
+                      "label": "Peso Chileno"
+                    },
+                    {
+                      "value": "COP",
+                      "label": "Peso Colombiano"
+                    },
+                    {
+                      "value": "CUP",
+                      "label": "Peso Cubano"
+                    },
+                    {
+                      "value": "DOP",
+                      "label": "Peso Dominicano"
+                    },
+                    {
+                      "value": "MXN",
+                      "label": "Peso Mexicano"
+                    },
+                    {
+                      "value": "UYU",
+                      "label": "Peso Uruguayo"
+                    },
+                    {
+                      "value": "GTQ",
+                      "label": "Quetzal"
+                    },
+                    {
+                      "value": "BRL",
+                      "label": "Real Brasileño"
+                    },
+                    {
+                      "value": "PEN",
+                      "label": "Sol Peruano"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "25",
+            "questionText": "¿Para qué usa el celular?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione todas las que apliquen",
+            "orden": 22,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "25",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Para comunicarme"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Para actividades del negocio"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Para usar redes sociales"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Para acceso a internet"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Para entretenimiento"
+                    },
+                    {
+                      "value": "6",
+                      "label": "No cuento con celular"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "26",
+            "questionText": "¿Tiene acceso a computadora o tablet?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione todas las que apliquen",
+            "orden": 23,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "26",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Sí, en mi hogar"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Sí, en la escuela"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Sí, en café internet o similar"
+                    },
+                    {
+                      "value": "1",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "27",
+            "questionText": "¿Tiene acceso a internet?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione todas las que apliquen",
+            "orden": 24,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "27",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Sí, en mi hogar"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Sí, en mi negocio"
+                    },
+                    {
+                      "value": "3",
+                      "label": "A veces en lugares públicos"
+                    },
+                    {
+                      "value": "4",
+                      "label": "No"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otros"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "28",
+            "questionText": "¿Utiliza redes sociales para el emprendimiento?¿Cuáles?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione todas las que apliquen",
+            "orden": 25,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "28",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Facebook"
+                    },
+                    {
+                      "value": "2",
+                      "label": "WhatsApp"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Twitter"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Snapchat"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Linkedin"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Youtube"
+                    },
+                    {
+                      "value": "7",
+                      "label": "WhatsApp Business"
+                    },
+                    {
+                      "value": "8",
+                      "label": "Pinterest"
+                    },
+                    {
+                      "value": "9",
+                      "label": "Telegram"
+                    },
+                    {
+                      "value": "10",
+                      "label": "Ninguna"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

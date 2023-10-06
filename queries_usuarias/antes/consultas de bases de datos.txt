@@ -1,0 +1,77 @@
+-- 1. Seleccionar las usuarias que han completado un test en julio pero no se han certificado 
+SELECT u.id, u.codigo, u.nombre, u.apellido, u.mail, u.celular, t.test, LEFT(t.test, 3) AS certificado, DATE(t.fecha_rendido) AS fecha_ultimo_test, t.fecha_rendido AS timestamp
+FROM usuario_test_rendido t
+-- LEFT JOIN con la tabla usuario u -> u.codigo = t.usuario
+LEFT JOIN usuario u ON u.codigo = t.usuario
+-- Filtra los registros aprobados -> aprobado = 1 
+WHERE t.aprobado = 1
+-- Subconsulta para obtener el último test aprobado para cada usuaria
+AND (usuario, fecha_rendido) IN (
+    SELECT usuario, MAX(fecha_rendido)
+    FROM usuario_test_rendido
+    WHERE aprobado = 1
+    -- Filtrar por el mes actual
+    AND YEAR(fecha_rendido) = YEAR(NOW())
+    AND MONTH(fecha_rendido) = MONTH(NOW()) 
+    GROUP BY usuario
+) 
+-- Verificar si existe en la tabla certificado la combinación de u.codigo y certificado
+AND NOT EXISTS (
+    SELECT 1
+    FROM certificado c
+    WHERE c.codigo = u.codigo
+    AND c.programaCodigo = LEFT(t.test, 3)
+)
+ORDER BY t.fecha_rendido DESC;
+
+-- 2. Las usuarias que hicieron login y la fecha en que hicieron el último login.
+SELECT u.id, u.codigo, u.nombre, u.apellido, u.mail, u.celular, DATE(ua.hora) AS fecha_ultimo_login, ua.hora AS timestamp
+FROM usuario_acciones ua
+-- LEFT JOIN con la tabla usuario u -> ua.usuario = u.codigo
+LEFT JOIN usuario u ON ua.usuario = u.codigo
+JOIN (
+    SELECT usuario, MAX(hora) AS ultimo_login_ok
+    FROM usuario_acciones
+    -- Obtenemos sólo los login
+    WHERE accion = 'Login OK'
+    GROUP BY usuario
+) AS ultimos_logins
+ON ua.usuario = ultimos_logins.usuario AND ua.hora = ultimos_logins.ultimo_login_ok
+ORDER BY ua.hora DESC;
+
+-- 3. Avance de los test. queremos saber cuál es el último test que ha resuelto cada usuaria y si es posible saber la fecha en la que lo hicieron.
+SELECT u.id, u.codigo, u.nombre, u.apellido, u.mail, u.celular, t.test, DATE(t.fecha_rendido) AS fecha_ultimo_test, t.fecha_rendido AS timestamp
+FROM usuario_test_rendido t
+-- LEFT JOIN con la tabla usuario u -> u.codigo = t.usuario
+LEFT JOIN usuario u ON u.codigo = t.usuario
+-- Filtra los registros aprbados -> aprobado = 1 
+WHERE t.aprobado = 1
+-- Subconsulta para obtener el último test aprobado para cada usuaria
+AND (usuario, fecha_rendido) IN (
+    SELECT usuario, MAX(fecha_rendido)
+    FROM usuario_test_rendido
+    WHERE aprobado = 1
+    GROUP BY usuario
+) ORDER BY t.fecha_rendido desc;
+
+-- 4. Corroborar que solo están las emprendedoras a las que hemos invitado, aquí está el listado de a quienes ya se ha contactado (Bases para 1.5.xlsx - archivo adjunto a la historia, ver la sección de attachments)
+
+SELECT u.*
+FROM usuario u
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM bases_para_15 b
+    WHERE u.mail = b.correo
+);
+
+SELECT COUNT(*) AS total_usuarios_no_encontrados
+FROM usuario u
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM bases_para_15 b
+    WHERE u.mail = b.correo
+);
+
+
+
+

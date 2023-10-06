@@ -1,0 +1,519 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Salida Todas Digitales",
+  "form": {
+    "formType": "salida",
+    "formId": "19",
+    "formName": "Todas Digitales",
+    "formDescription": "Felicitaciones por completar tu programa: Todas Digitales de Emprende Pro Mujer.",
+    "textPresentation": "¡Felicitaciones por completar tu programa con éxito! Gracias por ser protagonista de este desafío. Nos encanta mejorar para brindarte la mejor experiencia, por eso nos gustaría que respondas esta breve encuesta y luego podrás acceder a tu certificado. ¡Muchas gracias por recorrer este camino junto a nosotras!",
+    "textInstructions": "",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "60",
+        "sectionName": "HÁBITOS FINANCIEROS",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "274",
+            "questionText": "¿Aprendiste a elaborar un presupuesto para organizar y controlar tus gastos? ",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "274",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "b",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "275",
+            "questionText": "¿Aprendiste que es el crédito y como funciona? ",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "275",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "b",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "276",
+            "questionText": "¿Qué tan de acuerdo estás con la siguiente frase?: Considero que mis habilidades financieras mejorarón a partir del modulo de Salud Financiera",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "276",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "61",
+        "sectionName": "COMPETENCIAS Y HABILIDADES",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "277",
+            "questionText": "¿Aprendiste a utilizar Whatsapp?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "277",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "no",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "278",
+            "questionText": "¿Aprendiste a utilizar Google Drive o OneDrive?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "278",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "no",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "279",
+            "questionText": "¿Aprendiste a utilizar las Redes Sociales?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "279",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si, para mi uso personal."
+                    },
+                    {
+                      "value": "b",
+                      "label": "Si, para el negocio."
+                    },
+                    {
+                      "value": "c",
+                      "label": "Si, para el uso personal y para el negocio."
+                    },
+                    {
+                      "value": "d",
+                      "label": "No, por que ya conocía."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "280",
+            "questionText": "¿Aprendiste a utilizar Zoom y Meet para participar en videoconferencias?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "280",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "no",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "281",
+            "questionText": "¿Aprendiste a utilizar Canva?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "281",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "no",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "282",
+            "questionText": "¿Aprendiste a Utilizar las opciones de pago?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "282",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si, billetera móvil"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Si, banca móvil"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Si, billetera y banca móvil"
+                    },
+                    {
+                      "value": "d",
+                      "label": "No, por que ya conocía"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "62",
+        "sectionName": "NIVEL DE SATISFACCIÓN",
+        "sectionDescription": "",
+        "textInstructions": "Indica tu grado de satisfacción con respecto a los siguientes aspectos del programa",
+        "orden": 3,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "283",
+            "questionText": "Con los contenidos (lecciones de Todas Digitales y Salud Financiera)",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "283",
+                "answerText": "Indica tu grado de satisfacción",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "284",
+            "questionText": "Con las sesiones en vivo por Zoom (si las tomaste)",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "284",
+                "answerText": "Indica tu grado de satisfacción",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "285",
+            "questionText": "Con el funcionamiento de la plataforma Emprende",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "285",
+                "answerText": "Indica tu grado de satisfacción",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "286",
+            "questionText": "¿Qué sugerencias tienes para mejorar la capacitación?",
+            "questionDescription": "",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "286",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "minimumLength": 2,
+                  "maximumLength": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

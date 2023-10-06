@@ -1,0 +1,43 @@
+[
+  {
+    sla_secs: 30,
+    stage_id: 1,
+    stage_list: 'stage=14',
+    result_conf: [
+      {
+        result_action: 'answer',
+        result_evaluation: '`true`',
+        result_action_data: 'merge(data_received,{task_type:\'REFUEZO_PENSIONADOS\', bancoNuevo: data_result.datosEspecificos.bancoClabe || \'\', tipoPension:(data_result.resumenRespuestas[?nameValue==\'tipoPension_cw\'])[0].answer || \'\' , institucionOtorgante:(data_result.resumenRespuestas[?nameValue==\'institucionOtorgante_cw\' && answer == \'ISSSTE\' || answer == \'IMSS\' || answer == \'PEMEX\'])[0].answer || (data_result.resumenRespuestas[?nameValue==\'institucionOtorgante\' ])[0].answer, codigoAnt:data_result.codigoRespuesta, montoComprobado:(to_number(data_result.resumenRespuestas[?nameValue==\'salary_cw\'].answer|[0] || \'0\') || to_number(\'0\')), clabeNueva:(data_result.resumenRespuestas[?nameValue==\'clabe_cw\'])[0].answer || \'\'})',
+        complete_result_data: '{topic:\'resultado-verificaciones-topic\',message:{idSolicitud:segment_extended_data.data_received.idSolicitud,roadmap:[{result:([@][?contains(segment_extended_data.data_result_unevaluated.codigoResolucion||``,\'RE\')].[\'REJECTED\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoResolucion||``,\'ERROR\')].[\'ERROR\']||[[\'APPROVED\']]|[]|[0]),status:([segment_extended_data.data_result_unevaluated.codigoRespuesta][?@==\'VINM\'].[\'COMPLETED\']|[]|[0])||([@][?contains(segment_extended_data.data_result_unevaluated.codigoResolucion,\'ERROR\')].[\'COMPLETED\']||[[\'COMPLETED\']]|[]|[0]),taskId:\'VERINGRESOSPENSIONADOS\',taskType:\'VERIFICATION\',isDigital:`true`,statusDescription:segment_extended_data.data_result_unevaluated.comentarioEjecutivo,codigoResolucion:([@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VINA\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDCA\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VINM\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDNM\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VIND\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDEC\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VIMA\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VMCA\']||[[segment_extended_data.data_result_unevaluated.codigoRespuesta]]|[]|[0]),payload:{codigoResolucion:([@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VINA\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDCA\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VINM\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDNM\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VIND\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VDEC\']||[@][?contains(segment_extended_data.data_result_unevaluated.codigoRespuesta||``,\'VIMA\')&&(segment_extended_data.data_result.clabe!=segment_extended_data.data_result.clabeNueva)].[\'VMCA\']||[[segment_extended_data.data_result_unevaluated.codigoRespuesta]]|[]|[0]),bancoNuevo:segment_extended_data.data_result.bancoNuevo,tipoPension:segment_extended_data.data_result.tipoPension,institucionOtorgante:segment_extended_data.data_result.institucionOtorgante,clabeNueva:segment_extended_data.data_result.clabeNueva,montoComprobado:segment_extended_data.data_result.montoComprobado,docs:segment_extended_data.data_received.original_task_data.docs}}]}}',
+        service_call_postaction: 'https://layer-api-gfiles-service.autonomation.tijuana.mesh-servicios-fnd.mx/v1/api/file/delete',
+        service_data_postaction: '{url: data_received.URLSheet}',
+        service_method_postaction: 'POST'
+      }
+    ],
+    task_config: [
+      {
+        role: 'veridocs',
+        sla_secs: 30,
+        stage_list: 'stage=14',
+        task_evaluation: '`true`',
+        task_identifier: 'veridocs',
+        microtask_identifier: 'VERINGRESOSPENSIONADOS_REFUERZO',
+        task_identifier_data: 'merge(data_received,{URLSheet:data_received.service_call_evaluation_json[0].url,docs:(service_call_preaction_json[].metadata)|[?kind==\'VERINGRESOSPENSIONADOS\'||kind==\'AXINGRESOSPENSIONADOS\']})',
+        service_call_preaction: 'https://layer-api-multimedia-service.autonomation.tijuana.mesh-servicios-fnd.mx/v1/api/getDocumentsByIdSolicitud',
+        service_data_preaction: '{idSolicitud: idSolicitud}',
+        service_call_evaluation: [
+          {
+            url: 'https://layer-api-gfiles-service.autonomation.tijuana.mesh-servicios-fnd.mx/v1/api/file/clone',
+            data: '{title: [\'VERINGRESOSPENSIONADOS\', idSolicitud || \'\'].join(\'_\', @), url: \'https://docs.google.com/spreadsheets/d/1k2C9OqmVsfPGgm_Iyght4uHvpR4PoojNRXSpJH1fk94/edit#gid=0\', user: \'\'}',
+            codes: [
+              200
+            ],
+            method: 'POST',
+            result_evaluation: '`true`'
+          }
+        ],
+        service_method_preaction: 'GET'
+      }
+    ]
+  }
+]

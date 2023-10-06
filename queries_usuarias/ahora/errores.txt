@@ -1,0 +1,884 @@
+ERROR: 1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1146 (42S02): Table 'emprende_db.form_forms_response' doesn't exist
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNume' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'ordenNum' in 'field list'
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '13' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '15' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '17' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '19' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '23' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '25' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '27' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '29' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '31' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '33' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '35' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '37' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '39' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '41' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '43' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '45' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '47' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '49' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '53' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '55' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '57' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '59' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '61' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '63' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '65' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '67' for key 'PRIMARY'
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1062 (23000): Duplicate entry '9' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '12' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '13' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '14' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '15' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '16' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '17' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '18' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '19' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '20' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '22' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '23' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '24' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '25' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '26' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '27' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '28' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '29' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '30' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '31' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '32' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '33' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '34' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '35' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '36' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '37' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '38' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '39' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '40' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '41' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '42' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '43' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '44' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '45' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '46' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '47' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '48' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '49' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '50' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '52' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '53' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '54' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '55' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '56' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '57' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '58' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '59' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '60' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '61' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '62' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '63' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '64' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '65' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '66' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '67' for key 'PRIMARY'
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`emprende_db`.`forms_section`, CONSTRAINT `forms_section_ibfk_1` FOREIGN KEY (`formId`) REFERENCES `forms_form` (`id`))
+ERROR: 1062 (23000): Duplicate entry '8' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '12' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '13' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '14' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '15' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '16' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '17' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '18' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '19' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '20' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '22' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '23' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '24' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '25' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '26' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '27' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '28' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '29' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '30' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '31' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '32' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '33' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '34' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '35' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '36' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '37' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '38' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '39' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '40' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '41' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '42' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '43' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '44' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '45' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '46' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '47' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '48' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '49' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '50' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '52' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '53' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '54' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '55' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '56' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '57' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '58' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '59' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '60' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '61' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '62' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '63' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '64' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '65' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '66' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '67' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '12' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '13' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '14' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '15' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '16' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '17' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '18' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '19' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '20' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '22' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '12' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '13' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '14' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '15' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '16' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '17' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '18' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '19' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '20' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '22' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '23' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '24' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '25' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '26' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '27' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '28' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '29' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '30' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '31' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '32' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '33' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '34' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '35' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '36' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '37' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '38' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '39' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '40' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '41' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '42' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '43' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '44' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '45' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '46' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '47' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '48' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '49' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '50' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '52' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '53' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '54' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '55' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '56' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '57' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '58' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '59' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '60' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '61' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '62' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '63' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '64' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '65' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '66' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '67' for key 'PRIMARY'
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '1'), ('2', 'Municipio', '', None, 2, 1, 'inputText', 0, 1, 1, {}, '1'), (...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '21'), ('102', 'Con el funcionamiento de la plataforma Emprende', '', 'Ind...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '44'), ('202', 'Me considero una lideresa', '', 'Indica que tan de acuerdo...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '65'), ('302', '¿Qué tan satisfecha te encuentras con haber llevado este...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '1')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '1')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '1')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}, '2')' at line 1
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order, mandatory, answerType, multipleChoice, lockEdit, lockDelete, hideCondi...' at line 1
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1062 (23000): Duplicate entry '101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '111' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '121' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '131' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '141' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '151' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '161' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '171' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '181' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '191' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '211' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '221' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '231' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '241' for key 'PRIMARY'
+ERROR: 1054 (42S22): Unknown column 'None' in 'field list'
+ERROR: 1062 (23000): Duplicate entry '301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '311' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '11' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '71' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '81' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '91' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '111' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '121' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '131' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '141' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '151' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '161' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '171' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '181' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '191' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '211' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '221' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '231' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '241' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '251' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '261' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '271' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '291' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '311' for key 'PRIMARY'
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_response_options (id, responseLabel, responseValue, lockEdit, lockDelete, questionId) VALUES (1, NULL, '4', NULL, NULL, 1, 1, 'Perteneciente a un pueblo indígena u originario', '1');
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '1500', 'currency': 'BOB'}, 2, '190'), (17, 'b', 2, '191'), (18, '3...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '50000', 'currency': 'NIO'}, 74, '190'), (1187, 'a', 74, '191'), (1...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '0', 'currency': 'COP'}, 114, '128'), (2015, 'b', 114, '129'), (201...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '800', 'currency': 'GTQ'}, 165, '128'), (3020, 'd', 165, '129'), (3...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '5454', 'currency': 'BSD'}, 216, '128'), (4013, 'g', 216, '129'), (...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '.0001', 'currency': 'USD'}, 267, '128'), (5018, 'a', 267, '129'), ...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '0', 'currency': 'GTQ'}, 317, '128'), (6010, 'a', 317, '129'), (601...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '200000', 'currency': 'CLP'}, 369, '128'), (7004, 'b', 369, '129'),...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '750', 'currency': 'USD'}, 421, '128'), (8004, 'a', 421, '129'), (8...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '50000', 'currency': 'USD'}, 474, '128'), (9017, 'c', 474, '129'), ...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''income': '50', 'currency': 'USD'}, 526, '128'), (10017, 'a', 526, '129'), (1...' at line 1
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1054 (42S22): Unknown column 'resposeValue' in 'field list'
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], 536, '308'), (10212, '10', 536, '309'), (10213, 'e', 536, '310'), (10214,...' at line 1
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1136 (21S01): Column count doesn't match value count at row 1
+QUERY: INSERT INTO forms_question_response (id, responseValue, responseId, questionId) VALUES (1, NULL, 1, '104', '1');
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], 536, '308'), (10212, '10', 536, '309'), (10213, 'e', 536, '310'), (10214,...' at line 1
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], 544, '296'), (10302, 'Si', 545, '287'), (10303, 'Si', 545, '288'), (10304...' at line 1
+ERROR: 1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '3901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '4901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '5901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '6901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '7901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '8901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '9901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '10101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '51' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1301' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1401' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1501' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1601' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1701' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1801' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '1901' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2001' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2101' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '2201' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '12588' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21144' for key 'PRIMARY'
+ERROR: 1062 (23000): Duplicate entry '21153' for key 'PRIMARY'

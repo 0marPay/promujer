@@ -1,0 +1,543 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de salida reducida (Expando 2)_VF",
+  "form": {
+    "formType": "salida",
+    "formId": "17",
+    "formName": "Expando mi negocio",
+    "formDescription": "Felicitaciones por completar tu programa: Expando mi negocio de Emprende Pro Mujer.",
+    "textPresentation": "¡Felicitaciones por completar tu programa con éxito! Gracias por ser protagonista de este desafío. Nos encanta mejorar para brindarte la mejor experiencia, por eso nos gustaría que respondas esta breve encuesta y luego podrás acceder a tu certificado. ¡Muchas gracias por recorrer este camino junto a nosotras!",
+    "textInstructions": "",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "55",
+        "sectionName": "COMPETENCIAS Y HABILIDADES",
+        "sectionDescription": "",
+        "textInstructions": "¿Cuál consideras que es tu nivel de conocimiento/dominio en estos temas? ",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "249",
+            "questionText": "Tema: Cultura organizacional con perspectiva de género ",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "249",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "250",
+            "questionText": "Tema: Modelo financiero ",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "250",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "251",
+            "questionText": "Tema: Marketing digital y de contenidos",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "251",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "252",
+            "questionText": "Tema: Innovación en procesos",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "252",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "253",
+            "questionText": "Tema: Indicadores financieros",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "253",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "56",
+        "sectionName": "NIVEL DE SATISFACCIÓN",
+        "sectionDescription": "",
+        "textInstructions": "Indica tu grado de satisfacción con respecto a los siguientes aspectos del programa",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "254",
+            "questionText": "Mentorías individuales",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "254",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "255",
+            "questionText": "Nivel de dificultad de los contenidos",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "255",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "256",
+            "questionText": "Sesiones con facilitadoras",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "256",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "257",
+            "questionText": "Cuadernillos de trabajo",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "257",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "258",
+            "questionText": "Funcionamiento de la plataforma Emprende",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "258",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "259",
+            "questionText": "¿qué tan probable es que recomiendes a una persona conocida el programa de Emprende?",
+            "questionDescription": "",
+            "textInstructions": "Del 1 al 10, donde 1 es nada probable y 10 muy probable",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "259",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "6"
+                    },
+                    {
+                      "value": "7",
+                      "label": "7"
+                    },
+                    {
+                      "value": "8",
+                      "label": "8"
+                    },
+                    {
+                      "value": "9",
+                      "label": "9"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

@@ -1,0 +1,916 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de inscripcion Emprende 1707",
+  "form": {
+    "formType": "inscripcion",
+    "formId": "2",
+    "formName": "Emprende",
+    "formDescription": "Inscripción: Emprende Pro Mujer.",
+    "textPresentation": "Te invitamos a llenar este formulario para que puedas asegurar un lugar en este programa de formación que te acompañará en tu desarrollo como emprendedora. Gracias por estar junto a nosotras. ¡Te deseamos muchos éxitos!",
+    "textInstructions": "Al hacer clic en Enviar, aceptas que promujer.org almacene y procese la información personal suministrada para proporcionarte el contenido solicitado.",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "¡Gracias por completar tu formulario!",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextPrivacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "3",
+        "sectionName": "DATOS",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": false
+        },
+        "questions": [
+          {
+            "questionId": "29",
+            "questionText": "¿Cúal es tu país de residencia?",
+            "questionDescription": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "29",
+                "answerText": "Selecciona tu país",
+                "answerType": "selectInput",
+                "answerAdicionalProperties": {
+                  "optionItems": [
+                    {
+                      "value": "Antigua y Barbuda",
+                      "label": "Antigua y Barbuda"
+                    },
+                    {
+                      "value": "Argentina",
+                      "label": "Argentina"
+                    },
+                    {
+                      "value": "Aruba",
+                      "label": "Aruba"
+                    },
+                    {
+                      "value": "Bahamas",
+                      "label": "Bahamas"
+                    },
+                    {
+                      "value": "Barbados",
+                      "label": "Barbados"
+                    },
+                    {
+                      "value": "Belice",
+                      "label": "Belice"
+                    },
+                    {
+                      "value": "Bolivia",
+                      "label": "Bolivia"
+                    },
+                    {
+                      "value": "Brasil",
+                      "label": "Brasil"
+                    },
+                    {
+                      "value": "Chile",
+                      "label": "Chile"
+                    },
+                    {
+                      "value": "Colombia",
+                      "label": "Colombia"
+                    },
+                    {
+                      "value": "Costa Rica",
+                      "label": "Costa Rica"
+                    },
+                    {
+                      "value": "Cuba",
+                      "label": "Cuba"
+                    },
+                    {
+                      "value": "Dominica",
+                      "label": "Dominica"
+                    },
+                    {
+                      "value": "Ecuador",
+                      "label": "Ecuador"
+                    },
+                    {
+                      "value": "El Salvador",
+                      "label": "El Salvador"
+                    },
+                    {
+                      "value": "Grenada",
+                      "label": "Grenada"
+                    },
+                    {
+                      "value": "Guadalupe",
+                      "label": "Guadalupe"
+                    },
+                    {
+                      "value": "Guatemala",
+                      "label": "Guatemala"
+                    },
+                    {
+                      "value": "Guyana",
+                      "label": "Guyana"
+                    },
+                    {
+                      "value": "Guyana Francesa",
+                      "label": "Guyana Francesa"
+                    },
+                    {
+                      "value": "Haití",
+                      "label": "Haití"
+                    },
+                    {
+                      "value": "Honduras",
+                      "label": "Honduras"
+                    },
+                    {
+                      "value": "Islas Caimán",
+                      "label": "Islas Caimán"
+                    },
+                    {
+                      "value": "Islas Turcas y Caicos",
+                      "label": "Islas Turcas y Caicos"
+                    },
+                    {
+                      "value": "Islas Vírgenes",
+                      "label": "Islas Vírgenes"
+                    },
+                    {
+                      "value": "Jaimaca",
+                      "label": "Jaimaca"
+                    },
+                    {
+                      "value": "Martinica",
+                      "label": "Martinica"
+                    },
+                    {
+                      "value": "México",
+                      "label": "México"
+                    },
+                    {
+                      "value": "Nicaragua",
+                      "label": "Nicaragua"
+                    },
+                    {
+                      "value": "Panamá",
+                      "label": "Panamá"
+                    },
+                    {
+                      "value": "Paraguay",
+                      "label": "Paraguay"
+                    },
+                    {
+                      "value": "Perú",
+                      "label": "Perú"
+                    },
+                    {
+                      "value": "Puerto Rico",
+                      "label": "Puerto Rico"
+                    },
+                    {
+                      "value": "República Dominicana",
+                      "label": "República Dominicana"
+                    },
+                    {
+                      "value": "San Bartolomé",
+                      "label": "San Bartolomé"
+                    },
+                    {
+                      "value": "San Cristóbal y Nieves",
+                      "label": "San Cristóbal y Nieves"
+                    },
+                    {
+                      "value": "San Vicente y las Granadinas",
+                      "label": "San Vicente y las Granadinas"
+                    },
+                    {
+                      "value": "Santa Lucía",
+                      "label": "Santa Lucía"
+                    },
+                    {
+                      "value": "Suriname",
+                      "label": "Suriname"
+                    },
+                    {
+                      "value": "Trinidad y Tobago",
+                      "label": "Trinidad y Tobago"
+                    },
+                    {
+                      "value": "Uruguay",
+                      "label": "Uruguay"
+                    },
+                    {
+                      "value": "Venezuela",
+                      "label": "Venezuela"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "30",
+            "questionText": "¿Vive en una zona?",
+            "questionDescription": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "30",
+                "answerText": "",
+                "answerType": "selectInput",
+                "answerAdicionalProperties": {
+                  "optionItems": [
+                    {
+                      "value": "Rural",
+                      "label": "Rural"
+                    },
+                    {
+                      "value": "Urbana",
+                      "label": "Urbana"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "31",
+            "questionText": "Género",
+            "questionDescription": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "31",
+                "answerText": "",
+                "answerType": "selectInput",
+                "answerAdicionalProperties": {
+                  "optionItems": [
+                    {
+                      "value": "F",
+                      "label": "Femenino"
+                    },
+                    {
+                      "value": "M",
+                      "label": "Masculino"
+                    },
+                    {
+                      "value": "NB",
+                      "label": "No binario"
+                    },
+                    {
+                      "value": "O",
+                      "label": "Otro"
+                    },
+                    {
+                      "value": "P",
+                      "label": "Prefiero no decir"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "4",
+        "sectionName": "INFORMACIÓN PERSONAL",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "32",
+            "questionText": "¿Cuál es su máximo nivel educativo alcanzado?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "32",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Primario incompleta"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Primario completa"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Secundario incompleto"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Secundario completo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Terciario/tecnicatura incompleto"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Terciario/tecnicatura completo"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Universitario (licenciatura) incompleto"
+                    },
+                    {
+                      "value": "8",
+                      "label": "Universitario (licenciatura) completo"
+                    },
+                    {
+                      "value": "9",
+                      "label": "Post grado incompleto"
+                    },
+                    {
+                      "value": "10",
+                      "label": "Post grado completo"
+                    },
+                    {
+                      "value": "11",
+                      "label": "Prefiero no decir"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "33",
+            "questionText": "Por sus costumbres, lenguaje o tradiciones, usted se siente o se considera una persona:",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "33",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Perteneciente a un pueblo indígena u originario"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Afrodescendiente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Blanca"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Mestiza"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Otra"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Ninguna"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Prefiero no decir"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "34",
+            "questionText": "¿Ha recibido algún servicio/producto de Pro Mujer?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "34",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Servicio financiero (préstamo)"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Servicio de salud (mamografía, tamizajes, etc)"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Ambos"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Ninguno"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "35",
+            "questionText": "¿Tiene acceso a internet?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "35",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Algunos días de la semana"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Algunos días del mes"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Siempre"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "5",
+        "sectionName": "INFORMACIÓN DEL EMPRENDIMIENTO",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 3,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "36",
+            "questionText": "¿Cuál es el giro de su negocio?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 8,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "36",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Elaboración y/o venta de alimentos y bebidas"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Fabricación artesanal de bienes / trabajos con madera"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Venta por catálogo"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Elaboración y/o venta de indumentaria / textiles / calzado"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Atención médica y productos farmacéuticos"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Peluquería, salud y belleza"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Construcción, maquinaria y viviendas"
+                    },
+                    {
+                      "value": "h",
+                      "label": "Educación"
+                    },
+                    {
+                      "value": "i",
+                      "label": "Entretenimiento y ocio"
+                    },
+                    {
+                      "value": "j",
+                      "label": "Finanzas y servicios financieros"
+                    },
+                    {
+                      "value": "k",
+                      "label": "Publicidad, mercadotecnia y servicios digitales (diseño gráfico, redes sociales, etc.)"
+                    },
+                    {
+                      "value": "l",
+                      "label": "Telecomunicaciones, tecnología, internet y electrónica"
+                    },
+                    {
+                      "value": "m",
+                      "label": "Servicios para el hogar (limpieza, diseño de interiores, etc.)"
+                    },
+                    {
+                      "value": "n",
+                      "label": "Veterinaria y/o servicios para mascotas y animales"
+                    },
+                    {
+                      "value": "o",
+                      "label": "No tengo emprendimiento aún"
+                    },
+                    {
+                      "value": "p",
+                      "label": "Otro"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "37",
+            "questionText": "En un mes típico, ¿Cuál es, aproximadamente, el ingreso por ventas de su emprendimiento? (Colocar en moneda local de su país)",
+            "questionDescription": "",
+            "textInstructions": "Si el emprendimiento no estaba en funcionamiento o si el emprendimiento estaba operando pero no tuvo ventas, se debe colocar 0.",
+            "orden": 9,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "37",
+                "answerText": "",
+                "answerType": "moneyCurrencyInput",
+                "answerAdicionalProperties": {
+                  "lesserValue": 1,
+                  "optionsCurrency": [
+                    {
+                      "value": "PAB",
+                      "label": "Balboa"
+                    },
+                    {
+                      "value": "VEF",
+                      "label": "Bolívar"
+                    },
+                    {
+                      "value": "BOB",
+                      "label": "Boliviano"
+                    },
+                    {
+                      "value": "CRC",
+                      "label": "Colón Costarricense"
+                    },
+                    {
+                      "value": "SVC",
+                      "label": "Colón Salvadoreño"
+                    },
+                    {
+                      "value": "NIO",
+                      "label": "Córdoba"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar"
+                    },
+                    {
+                      "value": "BSD",
+                      "label": "Dólar Bahameño"
+                    },
+                    {
+                      "value": "BZD",
+                      "label": "Dólar Beliceño"
+                    },
+                    {
+                      "value": "BBD",
+                      "label": "Dólar de Barbados"
+                    },
+                    {
+                      "value": "KYD",
+                      "label": "Dólar de las Islas Caimán"
+                    },
+                    {
+                      "value": "XCD",
+                      "label": "Dólar del Caribe Oriental"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar Estadounidense"
+                    },
+                    {
+                      "value": "GYD",
+                      "label": "Dólar Guyanés"
+                    },
+                    {
+                      "value": "JMD",
+                      "label": "Dólar Jamaiquino"
+                    },
+                    {
+                      "value": "SRD",
+                      "label": "Dólar Surinamés"
+                    },
+                    {
+                      "value": "TTD",
+                      "label": "Dólar Trinitense"
+                    },
+                    {
+                      "value": "EUR",
+                      "label": "Euro"
+                    },
+                    {
+                      "value": "AWG",
+                      "label": "Florín Arubeño"
+                    },
+                    {
+                      "value": "HTG",
+                      "label": "Gourde"
+                    },
+                    {
+                      "value": "PYG",
+                      "label": "Guaraní Paraguayo"
+                    },
+                    {
+                      "value": "HNL",
+                      "label": "Lempira Hondureño"
+                    },
+                    {
+                      "value": "ARS",
+                      "label": "Peso Argentino"
+                    },
+                    {
+                      "value": "CLP",
+                      "label": "Peso Chileno"
+                    },
+                    {
+                      "value": "COP",
+                      "label": "Peso Colombiano"
+                    },
+                    {
+                      "value": "CUP",
+                      "label": "Peso Cubano"
+                    },
+                    {
+                      "value": "DOP",
+                      "label": "Peso Dominicano"
+                    },
+                    {
+                      "value": "MXN",
+                      "label": "Peso Mexicano"
+                    },
+                    {
+                      "value": "UYU",
+                      "label": "Peso Uruguayo"
+                    },
+                    {
+                      "value": "GTQ",
+                      "label": "Quetzal"
+                    },
+                    {
+                      "value": "BRL",
+                      "label": "Real Brasileño"
+                    },
+                    {
+                      "value": "PEN",
+                      "label": "Sol Peruano"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "38",
+            "questionText": "¿Qué porcentaje de los ingresos de tu hogar representan los ingresos de tu emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 10,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "38",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Menos del 5%"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Entre  6% y  25%"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre el 26% y el 50%"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Más del 51%"
+                    },
+                    {
+                      "value": "f",
+                      "label": "El 100% (todos los ingresos de mi hogar dependen de mi emprendimiento)"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Mi emprendimiento aún no genera ingresos"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "39",
+            "questionText": "En un mes típico, ¿qué porcentaje de tus ventas son realizadas a través de canales digitales como redes sociales, sitio webs propios o de terceros, plataformas de compra y venta, etc.?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 11,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "39",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No realizó ventas a través de canales digitales"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Utilizo canales digitales pero aún no realicé ventas a través de ellos"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre 21% y 40%"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Entre 41% y 60%"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Entre 61 % y 80%"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Más de 80%"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "40",
+            "questionText": "¿Vendes y/o realizas cobros a través de Mercado Pago/Mercado Libre?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 12,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "40",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "41",
+            "questionText": "¿Alguna vez ha recibido apoyo financiero para el emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 13,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "41",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si",
+                      "subpregunta": {
+                        "questionId": "21",
+                        "questionText": "¿De dónde provino el financiamiento?",
+                        "questionDescription": "",
+                        "textInstructions": "Ingrese el origen del financiamiento",
+                        "orden": 21,
+                        "mandatory": true,
+                        "conditionsToHide": {}
+                      }
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

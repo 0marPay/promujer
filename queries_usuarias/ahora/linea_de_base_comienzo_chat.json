@@ -1,0 +1,772 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Base (Comienzo mi negocio)",
+  "form": {
+    "formType": "base",
+    "formId": "5",
+    "formName": "Comienzo mi negocio",
+    "formDescription": "",
+    "textPresentation": "Comienzo mi negocio",
+    "textInstructions": "",
+    "textPrivacy": "",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "10",
+        "sectionName": "MÓDULO 1",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "66",
+            "questionText": "¿Hace cuánto tiempo tienes tu negocio? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "66",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Tengo una idea pero sin empezar"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Menos de 6 meses"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre 6 meses y 1 año"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Entre 1 y 2 años"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Entre 2 y 3 años"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Más de 3 años"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "67",
+            "questionText": "¿Tienes en algún lugar una descripción detallada y por escrito de a qué se va a dedicar tu negocio?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "67",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "68",
+            "questionText": "¿Tienes identificado con claridad los productos o servicios que vendes más?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "68",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "11",
+        "sectionName": "MÓDULO 2",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "69",
+            "questionText": "¿Cuál es el rubro de tu negocio?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "69",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "No tengo negocio"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Alimentos y bebidas"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Elaboración de textiles o calzado"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Peluquería, salud o belleza"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Venta minorista de bienes"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Fabricación artesanal"
+                    },
+                    {
+                      "value": "7",
+                      "label": "Venta por catálogo"
+                    },
+                    {
+                      "value": "8",
+                      "label": "Educación"
+                    },
+                    {
+                      "value": "9",
+                      "label": "Publicidad, servicios digitales"
+                    },
+                    {
+                      "value": "10",
+                      "label": "Atención médica y productos farmacéuticos"
+                    },
+                    {
+                      "value": "11",
+                      "label": "Construcción, maquinaria y viviendas"
+                    },
+                    {
+                      "value": "12",
+                      "label": "Entretenimiento y ocio"
+                    },
+                    {
+                      "value": "13",
+                      "label": "Finanzas y servicios financieros"
+                    },
+                    {
+                      "value": "14",
+                      "label": "Telecomunicaciones, tecnología, internet y electrónica"
+                    },
+                    {
+                      "value": "15",
+                      "label": "Servicios para el hogar"
+                    },
+                    {
+                      "value": "16",
+                      "label": "Veterinaria y/o servicios para mascotas"
+                    },
+                    {
+                      "value": "17",
+                      "label": "Mi rubro no está aquí"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "70",
+            "questionText": "¿Cuántos negocios conoces que venden los mismos productos o servicios que tú? ",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "70",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Ninguno"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Entre 1 y 2"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre 3 y 5"
+                    },
+                    {
+                      "value": "d",
+                      "label": "6 a más"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "12",
+        "sectionName": "¿Qué tanto consideras que conoces estos temas?",
+        "sectionDescription": "",
+        "textInstructions": "¿Qué tanto consideras que conoces estos temas?",
+        "orden": 3,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "71",
+            "questionText": "Tema: Clasificación y características de tus productos o servicios.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "71",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "72",
+            "questionText": "Tema: Utilización de redes sociales para el negocio .",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "72",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "13",
+        "sectionName": "De las siguientes frases, indica que tan de acuerdo estás con cada una",
+        "sectionDescription": "",
+        "textInstructions": "De las siguientes frases, indica que tan de acuerdo estás con cada una",
+        "orden": 4,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "73",
+            "questionText": "Puedo mantener la calma cuando estoy en problemas porque confío en mis habilidades para enfrentarlos.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "73",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "c",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "74",
+            "questionText": "Pienso que puedo destinar momentos para mí y sentirme bien.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "74",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "c",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "14",
+        "sectionName": "MÓDULO 3",
+        "sectionDescription": "",
+        "textInstructions": "¿Qué tanto consideras que conoces sobre estos temas?",
+        "orden": 5,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "75",
+            "questionText": "Tema: Gastos hormiga.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces sobre el tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "75",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "76",
+            "questionText": "Tema: Identificación de costos.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces sobre el tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "76",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "77",
+            "questionText": "Tema: Costeo de productos.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces sobre el tema?",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "77",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "15",
+        "sectionName": "MÓDULO 4",
+        "sectionDescription": "",
+        "textInstructions": "¿Qué tanto consideras que conoces los siguientes temas?",
+        "orden": 6,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "78",
+            "questionText": "Tema: Objetivos inteligentes (específicos, medibles, realistas y a tiempo).",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces sobre el tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "78",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "79",
+            "questionText": "Tema: Autocuidado y liderazgo.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces sobre el tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "79",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "16",
+        "sectionName": "De las siguientes frases, indica que tan de acuerdo estás con cada una",
+        "sectionDescription": "",
+        "textInstructions": "De las siguientes frases, indica que tan de acuerdo estás con cada una",
+        "orden": 7,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "80",
+            "questionText": "Me considero una lideresa.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "80",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "81",
+            "questionText": "Soy capaz de establecer metas y objetivos claros para mí misma.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "81",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

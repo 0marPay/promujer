@@ -1,0 +1,652 @@
+{
+  "campaignId": "1",
+  "campaignName": "Fortalece - Formulario de seguimiento Fortalece (VF)",
+  "form": {
+    "formType": "base",
+    "formId": "3",
+    "formName": "Fortalece tu Negocio",
+    "formDescription": "Bienvenida al curso: Fortalece tu Negocio de Emprende Pro Mujer.",
+    "textPresentation": "Te invitamos a llenar este formulario para que puedas asegurar un lugar en este programa de formación que te acompañará en tu desarrollo como emprendedora. Gracias por estar junto a nosotras. ¡Te deseamos muchos éxitos!",
+    "textInstructions": "",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "Gracias por completar el formulario de Promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": false
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "6",
+        "sectionName": "INGRESOS Y FINANCIAMIENTO",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "42",
+            "questionText": "En un mes típico, ¿Cuál es, aproximadamente, el ingreso por ventas de su emprendimiento? (Colocar en moneda local de su país)",
+            "questionDescription": "Por ingreso se hace referencia a ingresos por ventas del emprendimiento, ingresos por otro/s trabajo/s, ayudas sociales, etc., a nivel individual",
+            "textInstructions": "Si el emprendimiento no estaba en funcionamiento o si el emprendimiento estaba operando pero no tuvo ventas, se debe colocar 0.",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "42",
+                "answerText": "",
+                "answerType": "moneyCurrencyInput",
+                "answerAdicionalProperties": {
+                  "lesserValue": 1,
+                  "optionsCurrency": [
+                    {
+                      "value": "PAB",
+                      "label": "Balboa"
+                    },
+                    {
+                      "value": "VEF",
+                      "label": "Bolívar"
+                    },
+                    {
+                      "value": "BOB",
+                      "label": "Boliviano"
+                    },
+                    {
+                      "value": "CRC",
+                      "label": "Colón Costarricense"
+                    },
+                    {
+                      "value": "SVC",
+                      "label": "Colón Salvadoreño"
+                    },
+                    {
+                      "value": "NIO",
+                      "label": "Córdoba"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar"
+                    },
+                    {
+                      "value": "BSD",
+                      "label": "Dólar Bahameño"
+                    },
+                    {
+                      "value": "BZD",
+                      "label": "Dólar Beliceño"
+                    },
+                    {
+                      "value": "BBD",
+                      "label": "Dólar de Barbados"
+                    },
+                    {
+                      "value": "KYD",
+                      "label": "Dólar de las Islas Caimán"
+                    },
+                    {
+                      "value": "XCD",
+                      "label": "Dólar del Caribe Oriental"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar Estadounidense"
+                    },
+                    {
+                      "value": "GYD",
+                      "label": "Dólar Guyanés"
+                    },
+                    {
+                      "value": "JMD",
+                      "label": "Dólar Jamaiquino"
+                    },
+                    {
+                      "value": "SRD",
+                      "label": "Dólar Surinamés"
+                    },
+                    {
+                      "value": "TTD",
+                      "label": "Dólar Trinitense"
+                    },
+                    {
+                      "value": "EUR",
+                      "label": "Euro"
+                    },
+                    {
+                      "value": "AWG",
+                      "label": "Florín Arubeño"
+                    },
+                    {
+                      "value": "HTG",
+                      "label": "Gourde"
+                    },
+                    {
+                      "value": "PYG",
+                      "label": "Guaraní Paraguayo"
+                    },
+                    {
+                      "value": "HNL",
+                      "label": "Lempira Hondureño"
+                    },
+                    {
+                      "value": "ARS",
+                      "label": "Peso Argentino"
+                    },
+                    {
+                      "value": "CLP",
+                      "label": "Peso Chileno"
+                    },
+                    {
+                      "value": "COP",
+                      "label": "Peso Colombiano"
+                    },
+                    {
+                      "value": "CUP",
+                      "label": "Peso Cubano"
+                    },
+                    {
+                      "value": "DOP",
+                      "label": "Peso Dominicano"
+                    },
+                    {
+                      "value": "MXN",
+                      "label": "Peso Mexicano"
+                    },
+                    {
+                      "value": "UYU",
+                      "label": "Peso Uruguayo"
+                    },
+                    {
+                      "value": "GTQ",
+                      "label": "Quetzal"
+                    },
+                    {
+                      "value": "BRL",
+                      "label": "Real Brasileño"
+                    },
+                    {
+                      "value": "PEN",
+                      "label": "Sol Peruano"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "43",
+            "questionText": "¿Que tan de acuerdo estás con la siguiente frase? Considero que a partir de la participación en el programa mis ventas mejorarán",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "43",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Totalmente en desacuerdo"
+                    },
+                    {
+                      "value": "b",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Ni de acuerdo ni en desacuerdo"
+                    },
+                    {
+                      "value": "d",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "44",
+            "questionText": "¿Qué porcentaje de los ingresos de tu hogar representan los ingresos de tu emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "44",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Entre 51% y 100%"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Entre el 26 % y 50%"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Menos del 25%"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "45",
+            "questionText": "En un mes típico, ¿qué porcentaje de tus ventas son realizadas a través de canales digitales como redes sociales, sitio webs propios o de terceros, plataformas de compra y venta, etc.?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "45",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No realizó ventas a través de canales digitales"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Utilizo canales digitales pero aún no realicé ventas a través de ellos"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre 21% y 40%"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Entre 41% y 60%"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Entre 61 % y 80%"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Más de 80%"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "46",
+            "questionText": "¿Vendes y/o realizas cobros con Mercado Pago/Mercado Libre?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "46",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "S",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "N",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "47",
+            "questionText": "Luego de tu certificación en el programa, ¿Solicitaste un préstamo para tu emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "47",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "b",
+                      "label": "No"
+                    },
+                    {
+                      "value": "c",
+                      "label": "No me certifique"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "48",
+            "questionText": "¿A quién solicitaste el préstamo?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "48",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Pro Mujer"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Banco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Otra microfinanciera"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Banca comunal"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Familiar o conocido"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Agencia de préstamos"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Prestamista informal"
+                    },
+                    {
+                      "value": "h",
+                      "label": "Otro"
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditionsToShow": {
+              "questionId": "9",
+              "selectedAnswerIds": [
+                "a"
+              ]
+            }
+          },
+          {
+            "questionId": "49",
+            "questionText": "¿A qué destinaste los fondos obtenidos?",
+            "questionDescription": "",
+            "textInstructions": "Seleccionar todas las que correspondan",
+            "orden": 8,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "49",
+                "answerText": "",
+                "answerType": "selectInputCheckboxes",
+                "answerAdicionalProperties": {
+                  "multipleChoice": true,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Comprar materias primas / productos que comercializar"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Mejorar eficiencia del negocio actual"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Comprar maquinaria / equipos"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Ampliar el local"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Contratar empleados"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Realizar una campaña publicitaria"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Otro"
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditionsToShow": {
+              "questionId": "9",
+              "selectedAnswerIds": [
+                "a"
+              ]
+            }
+          },
+          {
+            "questionId": "50",
+            "questionText": "Especifique, a qué otro destinaste los fondos",
+            "questionDescription": "¿A qué destinaste los fondos obtenidos?",
+            "orden": 9,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "50",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "minimumLength": 2,
+                  "maximumLength": 300
+                }
+              }
+            ],
+            "conditionsToShow": {
+              "questionId": "9.2",
+              "selectedAnswerIds": [
+                "g"
+              ]
+            }
+          },
+          {
+            "questionId": "51",
+            "questionText": "¿Qué tan de acuerdo te encuentras con la siguiente frase? Considero que mis habilidades financieras mejorarón a partir del programa.",
+            "questionDescription": "",
+            "textInstructions": "Del 1 al 5, donde 1 es nada de acuerdo y 5 muy de acuerdo",
+            "orden": 10,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "51",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "7",
+        "sectionName": "HÁBITOS",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": false,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "52",
+            "questionText": "¿Tienes el hábito de ahorrar? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 11,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "52",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "b",
+                      "label": "No"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Algunas veces"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "53",
+            "questionText": "¿Realizas un presupuesto para tu emprendimiento? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 12,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "53",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Nunca"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Pocas veces"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Con frecuencia"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Siempre"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

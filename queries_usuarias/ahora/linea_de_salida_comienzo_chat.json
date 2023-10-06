@@ -1,0 +1,372 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Salida (Comienzo mi negocio)",
+  "form": {
+    "formType": "salida",
+    "formId": "12",
+    "formName": "Comienzo",
+    "formDescription": "",
+    "textPresentation": "Comienzo mi negocio",
+    "textInstructions": "",
+    "textPrivacy": "",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "35",
+        "sectionName": "¿Qué tanto conoces sobre estos temas?",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "160",
+            "questionText": "Tema: Atributos y personalidad del negocio.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "160",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "161",
+            "questionText": "Tema: Utilización de redes sociales para el negocio.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "161",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "162",
+            "questionText": "Tema: Gastos hormiga.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "162",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "163",
+            "questionText": "Tema: Identificación de costos.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "163",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "164",
+            "questionText": "Tema: Costeo de productos.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "164",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "165",
+            "questionText": "Tema: Objetivos SMART.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "165",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "166",
+            "questionText": "Tema: Autocuidado y liderazgo.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "166",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "36",
+        "sectionName": "",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "167",
+            "questionText": "¿Qué tan satisfecha te encuentras con haber llevado este nivel en whatsapp?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "167",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Muy insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Muy satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

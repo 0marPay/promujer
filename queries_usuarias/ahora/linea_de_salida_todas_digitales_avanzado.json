@@ -1,0 +1,450 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Salida (Todas Digitales Avanzado)",
+  "form": {
+    "formType": "salida",
+    "formId": "20",
+    "formName": "Todas Digitales Avanzado",
+    "formDescription": "",
+    "textPresentation": "Todas Digitales Avanzado",
+    "textInstructions": "",
+    "textPrivacy": "",
+    "textThanksCompleting": "Estamos muy felices porque has concluido la capacitación Todas Digitales Avanzado con éxito",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "63",
+        "sectionName": "Competencias y habilidades digitales",
+        "sectionDescription": "",
+        "textInstructions": "Responde la siguientes preguntas",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "287",
+            "questionText": "¿Aprendiste a utilizar Google Drive y OneDrive?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "287",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "288",
+            "questionText": "¿Aprendiste a utilizar Canva?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "288",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "289",
+            "questionText": "¿Aprendiste a crear anuncios en redes sociales?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "289",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "64",
+        "sectionName": "Satisfacción",
+        "sectionDescription": "",
+        "textInstructions": "Responde la siguientes preguntas",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "290",
+            "questionText": "En función a tu experiencia con la capacitación; del 0 al 10, donde 0 es nada probable y 10 es muy probable. ¿Qué tan probable es que recomiendes a tus familiares o amistades el programa Todas Digitales de Emprende Pro Mujer?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "290",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "0",
+                      "label": "0"
+                    },
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "6"
+                    },
+                    {
+                      "value": "7",
+                      "label": "7"
+                    },
+                    {
+                      "value": "8",
+                      "label": "8"
+                    },
+                    {
+                      "value": "9",
+                      "label": "9"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "291",
+            "questionText": "¿Cuál es el principal motivo de la calificación que nos asignas? o ¿Por qué asignas esa puntuación?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "291",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "validator": "textValidator"
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "292",
+            "questionText": "Del 0 al 10, donde 0 significa que no las has aplicado y 10 es que has aplicado las lecciones aprendidas ¿cuánto consideras que has aplicado los conocimientos brindados durante estas capacitaciones?",
+            "questionDescription": "",
+            "textInstructions": "",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "292",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "0",
+                      "label": "0"
+                    },
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "6"
+                    },
+                    {
+                      "value": "7",
+                      "label": "7"
+                    },
+                    {
+                      "value": "8",
+                      "label": "8"
+                    },
+                    {
+                      "value": "9",
+                      "label": "9"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "293",
+            "questionText": "Respecto a: Contenidos (lecciones de Todas Digitales)",
+            "questionDescription": "",
+            "textInstructions": "Selecciona cuan satisfecha/o te encuentras",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "293",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "294",
+            "questionText": "Respecto a: Sesiones en vivo por Zoom (opcionales)",
+            "questionDescription": "",
+            "textInstructions": "Selecciona cuan satisfecha/o te encuentras",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "294",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "295",
+            "questionText": "Respecto a: Funcionamiento de la plataforma Emprende",
+            "questionDescription": "",
+            "textInstructions": "Selecciona cuan satisfecha/o te encuentras",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "295",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "296",
+            "questionText": "¿Qué sugerencias tienes para mejorar la capacitación?",
+            "questionDescription": "",
+            "textInstructions": "Por favor, escribe tu sugerencia",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "296",
+                "answerText": "",
+                "answerType": "inputText",
+                "answerAdicionalProperties": {
+                  "validator": "textValidator"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

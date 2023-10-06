@@ -1,0 +1,274 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Salida (Todas Digitales)",
+  "form": {
+    "formType": "salida",
+    "formId": "21",
+    "formName": "Todas Digitales Básico",
+    "formDescription": "",
+    "textPresentation": "Todas Digitales",
+    "textInstructions": "",
+    "textPrivacy": "",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "65",
+        "sectionName": "PRE CERTIFICACIÓN",
+        "sectionDescription": "",
+        "textInstructions": "Responde la siguientes preguntas",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "297",
+            "questionText": "¿Aprendiste a utilizar las redes sociales?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "297",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Sí, para mi uso personal."
+                    },
+                    {
+                      "value": "b",
+                      "label": "Sí, para el negocio."
+                    },
+                    {
+                      "value": "c",
+                      "label": "Sí, para uso personal y para el negocio."
+                    },
+                    {
+                      "value": "d",
+                      "label": "No, porque ya conocía."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "298",
+            "questionText": "¿Aprendiste a utilizar las aplicaciones de Zoom y Meet para participar en videoconferencias?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "298",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "299",
+            "questionText": "En función a tu experiencia con la capacitación, ¿Qué tan probable es que recomiendes a tus familiares o amistades el programa Todas Digitales de Emprende Pro Mujer?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "299",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Muy probable"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Probable"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Nada probable"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "300",
+            "questionText": "Indica qué tan de acuerdo estás con la siguiente frase: Considero que aplicaré los conocimientos aprendidos durante las capacitaciones.",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "300",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Muy en desacuerdo"
+                    },
+                    {
+                      "value": "b",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "c",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Muy de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "301",
+            "questionText": "¿Qué tan satisfecha te encuentras con el contenidos (lecciones de Todas Digitales y Salud Financiera)?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "301",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Muy insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Muy satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "302",
+            "questionText": "¿Qué tan satisfecha te encuentras con haber llevado este nivel en WhatsApp?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "302",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Muy insatisfecha"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Muy satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

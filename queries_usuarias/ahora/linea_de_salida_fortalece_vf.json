@@ -1,0 +1,1285 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Salida Fortalece (VF)",
+  "form": {
+    "formType": "salida",
+    "formId": "14",
+    "formName": "Fortalezco mi negocio",
+    "formDescription": "Felicitaciones por completar tu programa: Fortalece tu negocio de Emprender Pro Mujer.",
+    "textPresentation": "¡Felicitaciones por completar tu programa con éxito! Gracias por ser protagonista de este desafío. Nos encanta mejorar para brindarte la mejor experiencia, por eso nos gustaría que respondas esta breve encuesta y luego podrás acceder a tu certificado.",
+    "textInstructions": "",
+    "textPrivacy": "Promujer.org se compromete a proteger y respetar tu privacidad, y sólo usaremos tú información",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "42",
+        "sectionName": "INGRESOS Y FINANCIAMIENTO",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "190",
+            "questionText": "En un mes típico, ¿Cuál es, aproximadamente, el ingreso por ventas de su emprendimiento? (Colocar en moneda local de su país)",
+            "questionDescription": "Por ingreso se hace referencia a ingresos por ventas del emprendimiento, ingresos por otro/s trabajo/s, ayudas sociales, etc., a nivel individual",
+            "textInstructions": "Si el emprendimiento no estaba en funcionamiento o si el emprendimiento estaba operando pero no tuvo ventas, se debe colocar 0.",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "190",
+                "answerText": "",
+                "answerType": "moneyCurrencyInput",
+                "answerAdicionalProperties": {
+                  "lesserValue": 1,
+                  "optionsCurrency": [
+                    {
+                      "value": "PAB",
+                      "label": "Balboa"
+                    },
+                    {
+                      "value": "VEF",
+                      "label": "Bolívar"
+                    },
+                    {
+                      "value": "BOB",
+                      "label": "Boliviano"
+                    },
+                    {
+                      "value": "CRC",
+                      "label": "Colón Costarricense"
+                    },
+                    {
+                      "value": "SVC",
+                      "label": "Colón Salvadoreño"
+                    },
+                    {
+                      "value": "NIO",
+                      "label": "Córdoba"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar"
+                    },
+                    {
+                      "value": "BSD",
+                      "label": "Dólar Bahameño"
+                    },
+                    {
+                      "value": "BZD",
+                      "label": "Dólar Beliceño"
+                    },
+                    {
+                      "value": "BBD",
+                      "label": "Dólar de Barbados"
+                    },
+                    {
+                      "value": "KYD",
+                      "label": "Dólar de las Islas Caimán"
+                    },
+                    {
+                      "value": "XCD",
+                      "label": "Dólar del Caribe Oriental"
+                    },
+                    {
+                      "value": "USD",
+                      "label": "Dólar Estadounidense"
+                    },
+                    {
+                      "value": "GYD",
+                      "label": "Dólar Guyanés"
+                    },
+                    {
+                      "value": "JMD",
+                      "label": "Dólar Jamaiquino"
+                    },
+                    {
+                      "value": "SRD",
+                      "label": "Dólar Surinamés"
+                    },
+                    {
+                      "value": "TTD",
+                      "label": "Dólar Trinitense"
+                    },
+                    {
+                      "value": "EUR",
+                      "label": "Euro"
+                    },
+                    {
+                      "value": "AWG",
+                      "label": "Florín Arubeño"
+                    },
+                    {
+                      "value": "HTG",
+                      "label": "Gourde"
+                    },
+                    {
+                      "value": "PYG",
+                      "label": "Guaraní Paraguayo"
+                    },
+                    {
+                      "value": "HNL",
+                      "label": "Lempira Hondureño"
+                    },
+                    {
+                      "value": "ARS",
+                      "label": "Peso Argentino"
+                    },
+                    {
+                      "value": "CLP",
+                      "label": "Peso Chileno"
+                    },
+                    {
+                      "value": "COP",
+                      "label": "Peso Colombiano"
+                    },
+                    {
+                      "value": "CUP",
+                      "label": "Peso Cubano"
+                    },
+                    {
+                      "value": "DOP",
+                      "label": "Peso Dominicano"
+                    },
+                    {
+                      "value": "MXN",
+                      "label": "Peso Mexicano"
+                    },
+                    {
+                      "value": "UYU",
+                      "label": "Peso Uruguayo"
+                    },
+                    {
+                      "value": "GTQ",
+                      "label": "Quetzal"
+                    },
+                    {
+                      "value": "BRL",
+                      "label": "Real Brasileño"
+                    },
+                    {
+                      "value": "PEN",
+                      "label": "Sol Peruano"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "191",
+            "questionText": "En un mes típico, ¿qué porcentaje de tus ventas son realizadas a través de canales digitales como redes sociales, sitio webs propios o de terceros, plataformas de compra y venta, etc.?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "191",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No realizó ventas a través de canales digitales"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Utilizo canales digitales pero aún no realicé ventas a través de ellos"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Entre 21% y 40%"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Entre 41% y 60%"
+                    },
+                    {
+                      "value": "f",
+                      "label": "Entre 61 % y 80%"
+                    },
+                    {
+                      "value": "g",
+                      "label": "Más de 80%"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "192",
+            "questionText": "¿Qué tan probable es que en los próximos 6 meses solicites un préstamo para tu emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Del 1 al 10, donde 1 es nada probable y 10 muy probable",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "192",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "6"
+                    },
+                    {
+                      "value": "7",
+                      "label": "7"
+                    },
+                    {
+                      "value": "8",
+                      "label": "8"
+                    },
+                    {
+                      "value": "9",
+                      "label": "9"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "193",
+            "questionText": "¿Qué tan de acuerdo estás con la siguiente frase? (Considero que a partir de la participación en el programa mis ventas mejorarán)",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "193",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Totalmente en desacuerdo"
+                    },
+                    {
+                      "value": "b",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Ni de acuerdo ni en desacuerdo"
+                    },
+                    {
+                      "value": "d",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "e",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "43",
+        "sectionName": "HÁBITOS",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "194",
+            "questionText": "¿Tienes el hábito de ahorrar? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "194",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "b",
+                      "label": "No"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Algunas veces"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "195",
+            "questionText": "¿Realizas presupuesto en tu emprendimiento? ",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "195",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "Nunca"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Pocas veces"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Con frecuencia"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Siempre"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "44",
+        "sectionName": "COMPETENCIAS Y HABILIDADES",
+        "sectionDescription": "",
+        "textInstructions": "¿Qué tanto consideras que conoces estos temas?",
+        "orden": 3,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "196",
+            "questionText": "Tema: Incorporación de la perspectiva de género en el negocio",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "196",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "197",
+            "questionText": "Tema: Innovación para el negocio y estrategias de crecimiento del negocio",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "197",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "198",
+            "questionText": "Tema: Comunicación estratégica y marketing digital",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "198",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "199",
+            "questionText": "Tema: Herramientas financieras (flujo de efectivo, proyección financiera, elaboración de presupuesto, etc.)",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 44,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "199",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "200",
+            "questionText": "Tema: Fuentes de financiamiento",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 55,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "200",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "201",
+            "questionText": "Tema: Uso de medios digitales de pago",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "201",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Nada/Desconozco"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Bajo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Intermedio"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Avanzado"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "45",
+        "sectionName": "COMPETENCIAS Y HABILIDADES",
+        "sectionDescription": "",
+        "textInstructions": "De las siguientes frases, indica que tan de acuerdo estás con cada una",
+        "orden": 4,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "202",
+            "questionText": "Me considero una lideresa",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "202",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "203",
+            "questionText": "Soy capaz de manejar situaciones difíciles y conflictos de manera efectiva",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "203",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "204",
+            "questionText": "Soy capaz de establecer metas y objetivos claros para mí misma",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "204",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "205",
+            "questionText": "Puedo mantener la calma cuando estoy en problemas porque confío en mis habilidades para enfrentarlos",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "205",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "206",
+            "questionText": "Tengo una red de apoyo en quien confiar",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "206",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "207",
+            "questionText": "Puedo encontrar la manera de obtener lo que quiero a pesar de los obstáculos",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "207",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "208",
+            "questionText": "Gracias a mis cualidades personales puedo enfrentar situaciones inesperadas",
+            "questionDescription": "",
+            "textInstructions": "Indica que tan de acuerdo con la frase anterior",
+            "orden": 7,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "208",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En total desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "4",
+                      "label": "De acuerdo"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente de acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "46",
+        "sectionName": "NIVEL DE SATISFACCIÓN",
+        "sectionDescription": "",
+        "textInstructions": "Indica tu grado de satisfacción con respecto a los siguientes aspectos del programa",
+        "orden": 5,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "209",
+            "questionText": "Mentorías individuales",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "209",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "210",
+            "questionText": "Nivel de dificultad de los contenidos",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "210",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "211",
+            "questionText": "Sesiones con facilitadoras",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "211",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "212",
+            "questionText": "Cuadernillos de trabajo",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "212",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "213",
+            "questionText": "Funcionamiento de la plataforma Emprende",
+            "questionDescription": "",
+            "textInstructions": "Indica tu grado de satisfacción",
+            "orden": 5,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "213",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "Totalmente insatisfecha"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Insatisfecha"
+                    },
+                    {
+                      "value": "3",
+                      "label": "Neutral"
+                    },
+                    {
+                      "value": "4",
+                      "label": "Satisfecha"
+                    },
+                    {
+                      "value": "5",
+                      "label": "Totalmente satisfecha"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "214",
+            "questionText": "¿qué tan probable es que recomiendes a una persona conocida el programa de Emprende?",
+            "questionDescription": "",
+            "textInstructions": "Del 1 al 10, donde 1 es nada probable y 10 muy probable",
+            "orden": 6,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "214",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "1"
+                    },
+                    {
+                      "value": "2",
+                      "label": "2"
+                    },
+                    {
+                      "value": "3",
+                      "label": "3"
+                    },
+                    {
+                      "value": "4",
+                      "label": "4"
+                    },
+                    {
+                      "value": "5",
+                      "label": "5"
+                    },
+                    {
+                      "value": "6",
+                      "label": "6"
+                    },
+                    {
+                      "value": "7",
+                      "label": "7"
+                    },
+                    {
+                      "value": "8",
+                      "label": "8"
+                    },
+                    {
+                      "value": "9",
+                      "label": "9"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}

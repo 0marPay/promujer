@@ -1,0 +1,397 @@
+{
+  "campaignId": "1",
+  "campaignName": "Formulario de Línea de Base (Ideo mi negocio)",
+  "form": {
+    "formType": "base",
+    "formId": "8",
+    "formName": "Ideo mi negocio",
+    "formDescription": "",
+    "textPresentation": "Ideo mi negocio",
+    "textInstructions": "",
+    "textPrivacy": "",
+    "textThanksCompleting": "Gracias por completar el formulario de promujer",
+    "textContact": "",
+    "callback": {},
+    "displayForm": {
+      "showPresentation": true,
+      "showInstructions": true,
+      "showPrivacy": true,
+      "showContact": false,
+      "showForm": true,
+      "showTextThanksCompleting": true
+    },
+    "formatForm": {
+      "urlImageHeader": "",
+      "formatTextDescription": "text",
+      "formatTextInstructions": "text",
+      "formatTextProvacy": "html",
+      "formatTextContact": "text",
+      "formatTextThanksCompleting": "html",
+      "customCss": ""
+    },
+    "sections": [
+      {
+        "sectionId": "25",
+        "sectionName": "MÓDULO 1",
+        "sectionDescription": "",
+        "textInstructions": "",
+        "orden": 1,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "119",
+            "questionText": "¿En algún lugar tienes una descripción detallada y por escrito de a qué se va a dedicar tu emprendimiento?",
+            "questionDescription": "",
+            "textInstructions": "Seleccione una opción",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "119",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "Si",
+                      "label": "Si"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "120",
+            "questionText": "Tema: Oportunidades de mercado",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces este tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "120",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "26",
+        "sectionName": "MÓDULO 2",
+        "sectionDescription": "",
+        "textInstructions": "¿Qué tan de acuerdo estás con las siguientes afirmaciones?",
+        "orden": 2,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "121",
+            "questionText": "Puedo encontrar la manera de obtener lo que quiero a pesar de los obstáculos.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tan de acuerdo estás con la afirmación anterior?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "121",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "122",
+            "questionText": "Pienso que puedo destinar momentos para mí y sentirme bien.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tan de acuerdo estás con la afirmación anterior?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "122",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "123",
+            "questionText": "Soy capaz de establecer metas y objetivos claros para mí misma.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tan de acuerdo estás con la afirmación anterior?",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "123",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "124",
+            "questionText": "Soy capaz de tomar decisiones difíciles y hacer frente a los desafíos.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tan de acuerdo estás con la afirmación anterior?",
+            "orden": 4,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "124",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "1",
+                      "label": "En desacuerdo"
+                    },
+                    {
+                      "value": "2",
+                      "label": "Me es indiferente"
+                    },
+                    {
+                      "value": "3",
+                      "label": "De acuerdo"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "27",
+        "sectionName": "MÓDULO 3",
+        "sectionDescription": "",
+        "textInstructions": "Para comenzar este módulo, ¿Qué tanto consideras que conoces estos temas?.",
+        "orden": 3,
+        "displaySection": {
+          "showName": true,
+          "showInstructions": true,
+          "lockPreviouslyAnsweredSection": false,
+          "conditionsToHide": {},
+          "breakSectionPages": true
+        },
+        "questions": [
+          {
+            "questionId": "125",
+            "questionText": "Tema: Presupuesto",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 1,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "125",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "126",
+            "questionText": "Tema: Planes de ahorro.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 2,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "126",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "questionId": "127",
+            "questionText": "Tema: Identificación de costos.",
+            "questionDescription": "",
+            "textInstructions": "¿Qué tanto consideras que conoces el tema?",
+            "orden": 3,
+            "mandatory": true,
+            "conditionsToHide": {},
+            "answerOptions": [
+              {
+                "answerId": "127",
+                "answerText": "",
+                "answerType": "selectInputRadioButtons",
+                "answerAdicionalProperties": {
+                  "multipleChoice": false,
+                  "options": [
+                    {
+                      "value": "a",
+                      "label": "No Conozco"
+                    },
+                    {
+                      "value": "b",
+                      "label": "Conozco poco"
+                    },
+                    {
+                      "value": "c",
+                      "label": "Conozco mucho"
+                    },
+                    {
+                      "value": "d",
+                      "label": "Soy experta"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "formActions": {
+      "conditionsBeforeForm": {},
+      "conditionsAfter": {},
+      "conditionsToRedirect": {}
+    }
+  }
+}
